@@ -121,17 +121,28 @@
         }
         .footer .section {
             margin-right: 30px;
+            font-weight: normal;
+            font-size: 18px;
         }
         .footer .section h4 {
             font-size: 18px;
-            margin-bottom: 10px;
+            margin-bottom: 30px;
+            font-weight: normal;
+
         }
         .footer .section a {
             display: block;
             margin: 5px 0;
             color: #fff;
             text-decoration: none;
+            display: flex;
+            align-items: center;
         }
+        .footer .section a img {
+            margin-right: 10px; 
+            width: 24px; 
+            height: 24px;
+            
         .footer .section a:hover {
             text-decoration: underline;
         }
@@ -147,6 +158,14 @@
         }
         table th {
             font-weight: bold;
+        }
+            .copyright {
+            position: absolute;
+            bottom: 25px;
+            left: 20px;
+            font-size: 18px;
+            color: #fff;
+                font-weight: normal;
         }
     </style>
 </head>
@@ -286,9 +305,15 @@
     </div>
     <div class="section">
         <h4>Соцсети</h4>
-        <a href="#">Youtube</a>
-        <a href="#">ВКонтакте</a>
-        <a href="#">TikTok</a>
+        <a href="#">
+            <img scr= "youtube_color_white.svg" alt= "Youtube"> Youtube</a>
+        <a href="#">
+            <img scr= "vk_color_white.svg" alt= "ВКонтакте"> ВКонтакте</a>
+        <a href="#">
+            <img scr= "tiktok_color_white.svg" alt= "TikTok"> TikTok</a>
+    </div>
+    <div class="copyright">
+        &copy; Bogatyrev Dmitriy
     </div>
 </footer>
 
